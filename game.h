@@ -177,7 +177,7 @@ void Game::input()
 
                 if(event.type == sf::Event::MouseButtonPressed)
                 {
-                    if(event.key.code == sf::Mouse::Left)
+                    if(event.mouseButton.button == sf::Mouse::Left)
                     {
                         mouseclicked = true;
                         mousepos = sf::Mouse::getPosition(app);
